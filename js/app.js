@@ -92,9 +92,8 @@ var operations = function () {
   point.onclick = function () {
     txt.value += ".";
   };
-  divide.onclick = function () {
-    var result = eval(txt.value);
-    txt.value = result;
+  equal.onclick = function () {
+    txt.value = eval(txt.value);
   };
 };
 
